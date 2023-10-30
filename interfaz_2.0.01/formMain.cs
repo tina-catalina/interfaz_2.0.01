@@ -19,12 +19,20 @@ namespace interfaz_2._0._01
             InitializeComponent();
         }
 
-        private void OpenSelectedForm(Form ChildForm)
+        private void OpenSelectedForm(Form cf)
         {
 
-            if (this.mainPanel.Controls.Count > 0) this.mainPanel.Controls.RemoveAt(0);
+            if (this.mainPanel.Controls.Count > 0)
+            {
 
-            Form cf = ChildForm ; // Type Casting in C#
+                if (this.mainPanel.Controls[0].GetType() == cf.GetType()) return;
+
+                this.mainPanel.Controls.RemoveAt(0);
+
+
+            }
+
+            //Form cf = ChildForm ; // Type Casting in C#
             cf.TopLevel = false; // Esto evita que el form se ponga enfrente de todas las ventanas
             cf.Dock = DockStyle.Fill; // esto acopla los bordes del form llenando el control o superficie donde este Ej: un panel/ventana etc
             this.mainPanel.Controls.Add(cf); // Esto agrega el form al panel principal del form principal
@@ -69,6 +77,11 @@ namespace interfaz_2._0._01
             // logica para cerrar la sesion, falta la meesagebox para comprobar si quiere irse o no.
             new formLogin().Show();
             this.Close();
+        }
+
+        private void formMain_Load(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formMyMusic());
         }
     }
 }

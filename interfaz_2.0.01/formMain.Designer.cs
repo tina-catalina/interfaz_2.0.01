@@ -40,13 +40,10 @@
             this.btnSubirMusica = new Guna.UI2.WinForms.Guna2Button();
             this.btnMiMusica = new Guna.UI2.WinForms.Guna2Button();
             this.userNickname_Main = new System.Windows.Forms.Label();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnMinimizeRegister = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.btnExitRegister = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.mainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.mainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -225,10 +222,20 @@
             this.userNickname_Main.TabIndex = 0;
             this.userNickname_Main.Text = "Nickname";
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(75, 35);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.guna2CirclePictureBox1.TabIndex = 0;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
             // guna2Panel2
             // 
-            this.guna2Panel2.Controls.Add(this.btnMinimizeRegister);
-            this.guna2Panel2.Controls.Add(this.btnExitRegister);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Enabled = false;
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
@@ -236,36 +243,6 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(724, 34);
             this.guna2Panel2.TabIndex = 2;
-            // 
-            // btnMinimizeRegister
-            // 
-            this.btnMinimizeRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizeRegister.Animated = true;
-            this.btnMinimizeRegister.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizeRegister.BorderRadius = 3;
-            this.btnMinimizeRegister.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.btnMinimizeRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.btnMinimizeRegister.IconColor = System.Drawing.Color.White;
-            this.btnMinimizeRegister.Location = new System.Drawing.Point(640, 7);
-            this.btnMinimizeRegister.Name = "btnMinimizeRegister";
-            this.btnMinimizeRegister.Size = new System.Drawing.Size(25, 20);
-            this.btnMinimizeRegister.TabIndex = 3;
-            this.btnMinimizeRegister.UseTransparentBackground = true;
-            // 
-            // btnExitRegister
-            // 
-            this.btnExitRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExitRegister.Animated = true;
-            this.btnExitRegister.BackColor = System.Drawing.Color.Transparent;
-            this.btnExitRegister.BorderRadius = 3;
-            this.btnExitRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.btnExitRegister.IconColor = System.Drawing.Color.White;
-            this.btnExitRegister.Location = new System.Drawing.Point(685, 7);
-            this.btnExitRegister.Name = "btnExitRegister";
-            this.btnExitRegister.Size = new System.Drawing.Size(25, 20);
-            this.btnExitRegister.TabIndex = 4;
-            this.btnExitRegister.UseTransparentBackground = true;
-            this.btnExitRegister.Click += new System.EventHandler(this.btnExitRegister_Click);
             // 
             // mainPanel
             // 
@@ -279,18 +256,6 @@
             this.mainPanel.TabIndex = 3;
             this.mainPanel.UseTransparentBackground = true;
             // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(75, 35);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.guna2CirclePictureBox1.TabIndex = 0;
-            this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.UseTransparentBackground = true;
-            // 
             // formMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -303,9 +268,9 @@
             this.Name = "formMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formMain";
+            this.Load += new System.EventHandler(this.formMain_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -317,8 +282,6 @@
         private Guna.UI2.WinForms.Guna2ShadowForm sombraformRegister;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2ControlBox btnMinimizeRegister;
-        private Guna.UI2.WinForms.Guna2ControlBox btnExitRegister;
         private System.Windows.Forms.Label userNickname_Main;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnComunidad;
