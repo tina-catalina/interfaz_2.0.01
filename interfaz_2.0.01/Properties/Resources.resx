@@ -148,6 +148,12 @@
   <data name="background_image11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="stopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stopIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="subirmusicaWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\subirmusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,6 +162,9 @@
   </data>
   <data name="mimusicaWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mimusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rewindButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rewindButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settingsBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settingsBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +178,9 @@
   <data name="logo_opcion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_opcion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="editIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logoutBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoutBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +189,9 @@
   </data>
   <data name="comunidadWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comunidadWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fastfoward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fastfoward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoutWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoutWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,16 +220,13 @@
   <data name="subirmusicaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\subirmusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fastfoward" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fastfoward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="deleteIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deleteIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rewindButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rewindButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="stopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stopIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="playIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\playIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

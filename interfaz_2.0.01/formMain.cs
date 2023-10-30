@@ -67,5 +67,17 @@ namespace interfaz_2._0._01
         {
             OpenSelectedForm(new formMyMusic());
         }
+
+        private void btnSubirMusica_Click(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formUploadMusic());
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

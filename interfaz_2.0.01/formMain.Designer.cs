@@ -40,11 +40,14 @@
             this.btnSubirMusica = new Guna.UI2.WinForms.Guna2Button();
             this.btnMiMusica = new Guna.UI2.WinForms.Guna2Button();
             this.userNickname_Main = new System.Windows.Forms.Label();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.mainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.mainPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // elipseMain
@@ -70,9 +73,9 @@
             this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 34);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(250, 660);
+            this.guna2Panel1.Size = new System.Drawing.Size(250, 626);
             this.guna2Panel1.TabIndex = 1;
             // 
             // guna2Separator1
@@ -183,14 +186,15 @@
             this.btnSubirMusica.TabIndex = 25;
             this.btnSubirMusica.Text = "Subir música";
             this.btnSubirMusica.UseTransparentBackground = true;
+            this.btnSubirMusica.Click += new System.EventHandler(this.btnSubirMusica_Click);
             // 
             // btnMiMusica
             // 
             this.btnMiMusica.Animated = true;
             this.btnMiMusica.BackColor = System.Drawing.Color.Transparent;
             this.btnMiMusica.BorderRadius = 10;
-            this.btnMiMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
-            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnMiMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage4")));
+            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnMiMusica.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMiMusica.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnMiMusica.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -221,30 +225,6 @@
             this.userNickname_Main.TabIndex = 0;
             this.userNickname_Main.Text = "Nickname";
             // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Enabled = false;
-            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(250, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.BorderRadius = 20;
-            this.guna2Panel2.ShadowDecoration.Color = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(2)))), ((int)(((byte)(154)))));
-            this.guna2Panel2.Size = new System.Drawing.Size(724, 34);
-            this.guna2Panel2.TabIndex = 2;
-            // 
-            // mainPanel
-            // 
-            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
-            this.mainPanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(24)))), ((int)(((byte)(179)))));
-            this.mainPanel.Location = new System.Drawing.Point(250, 0);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(724, 660);
-            this.mainPanel.TabIndex = 3;
-            this.mainPanel.UseTransparentBackground = true;
-            // 
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -260,13 +240,68 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
+            // mainPanel
+            // 
+            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.mainPanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(24)))), ((int)(((byte)(179)))));
+            this.mainPanel.Location = new System.Drawing.Point(250, 34);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(724, 626);
+            this.mainPanel.TabIndex = 3;
+            this.mainPanel.UseTransparentBackground = true;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2ImageButton1.Image = global::interfaz_2._0._01.Properties.Resources.exit;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(930, 3);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.TabIndex = 0;
+            this.guna2ImageButton1.UseTransparentBackground = true;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.Controls.Add(this.guna2ImageButton2);
+            this.guna2GradientPanel1.Controls.Add(this.guna2ImageButton1);
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(33)))), ((int)(((byte)(67)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(24)))), ((int)(((byte)(179)))));
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(974, 34);
+            this.guna2GradientPanel1.TabIndex = 4;
+            // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2ImageButton2.Image = global::interfaz_2._0._01.Properties.Resources.minimize;
+            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton2.ImageRotate = 0F;
+            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(894, 3);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton2.TabIndex = 1;
+            this.guna2ImageButton2.UseTransparentBackground = true;
+            // 
             // formMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(974, 660);
-            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formMain";
@@ -276,6 +311,7 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.guna2GradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -285,7 +321,6 @@
         private Guna.UI2.WinForms.Guna2Elipse elipseMain;
         private Guna.UI2.WinForms.Guna2ShadowForm sombraformRegister;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private System.Windows.Forms.Label userNickname_Main;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnComunidad;
@@ -295,5 +330,8 @@
         private Guna.UI2.WinForms.Guna2GradientPanel mainPanel;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
     }
 }
