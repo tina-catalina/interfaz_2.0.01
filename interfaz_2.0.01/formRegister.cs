@@ -14,6 +14,7 @@ namespace interfaz_2._0._01
     {
         public formRegister()
         { 
+            //culo
             InitializeComponent();
             
             btnBack.Click += new EventHandler(btnBack_Click);
