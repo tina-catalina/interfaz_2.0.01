@@ -94,7 +94,7 @@
             // 
             this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator1.FillColor = System.Drawing.Color.White;
-            this.guna2Separator1.Location = new System.Drawing.Point(25, 452);
+            this.guna2Separator1.Location = new System.Drawing.Point(25, 446);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(200, 10);
             this.guna2Separator1.TabIndex = 2;
@@ -105,6 +105,10 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage")));
+            this.guna2Button1.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.guna2Button1.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -112,8 +116,8 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.guna2Button1.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.guna2Button1.Location = new System.Drawing.Point(23, 576);
+            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.Location = new System.Drawing.Point(23, 552);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(205, 50);
             this.guna2Button1.TabIndex = 28;
@@ -125,6 +129,10 @@
             this.btnSetting.Animated = true;
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
             this.btnSetting.BorderRadius = 10;
+            this.btnSetting.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
+            this.btnSetting.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnSetting.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSetting.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSetting.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSetting.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSetting.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -132,8 +140,8 @@
             this.btnSetting.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.btnSetting.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetting.ForeColor = System.Drawing.Color.White;
-            this.btnSetting.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.btnSetting.Location = new System.Drawing.Point(23, 494);
+            this.btnSetting.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetting.Location = new System.Drawing.Point(23, 479);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Size = new System.Drawing.Size(205, 50);
             this.btnSetting.TabIndex = 27;
@@ -145,6 +153,10 @@
             this.btnComunidad.Animated = true;
             this.btnComunidad.BackColor = System.Drawing.Color.Transparent;
             this.btnComunidad.BorderRadius = 10;
+            this.btnComunidad.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage2")));
+            this.btnComunidad.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnComunidad.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnComunidad.CustomImages.ImageSize = new System.Drawing.Size(35, 35);
             this.btnComunidad.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnComunidad.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnComunidad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -152,8 +164,8 @@
             this.btnComunidad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.btnComunidad.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComunidad.ForeColor = System.Drawing.Color.White;
-            this.btnComunidad.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.btnComunidad.Location = new System.Drawing.Point(23, 370);
+            this.btnComunidad.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComunidad.Location = new System.Drawing.Point(23, 373);
             this.btnComunidad.Name = "btnComunidad";
             this.btnComunidad.Size = new System.Drawing.Size(205, 50);
             this.btnComunidad.TabIndex = 26;
@@ -165,6 +177,10 @@
             this.btnSubirMusica.Animated = true;
             this.btnSubirMusica.BackColor = System.Drawing.Color.Transparent;
             this.btnSubirMusica.BorderRadius = 10;
+            this.btnSubirMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage3")));
+            this.btnSubirMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnSubirMusica.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSubirMusica.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSubirMusica.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSubirMusica.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSubirMusica.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -172,8 +188,8 @@
             this.btnSubirMusica.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.btnSubirMusica.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubirMusica.ForeColor = System.Drawing.Color.White;
-            this.btnSubirMusica.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.btnSubirMusica.Location = new System.Drawing.Point(23, 288);
+            this.btnSubirMusica.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubirMusica.Location = new System.Drawing.Point(23, 300);
             this.btnSubirMusica.Name = "btnSubirMusica";
             this.btnSubirMusica.Size = new System.Drawing.Size(205, 50);
             this.btnSubirMusica.TabIndex = 25;
@@ -185,8 +201,8 @@
             this.btnMiMusica.Animated = true;
             this.btnMiMusica.BackColor = System.Drawing.Color.Transparent;
             this.btnMiMusica.BorderRadius = 10;
-            this.btnMiMusica.CustomImages.HoveredImage = global::interfaz_2._0._01.Properties.Resources.Adobe_Express_20231030_1253370_1;
-            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnMiMusica.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage4")));
+            this.btnMiMusica.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnMiMusica.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMiMusica.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnMiMusica.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -196,8 +212,8 @@
             this.btnMiMusica.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.btnMiMusica.Font = new System.Drawing.Font("Satoshi Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMiMusica.ForeColor = System.Drawing.Color.White;
-            this.btnMiMusica.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.btnMiMusica.Location = new System.Drawing.Point(23, 206);
+            this.btnMiMusica.HoverState.Font = new System.Drawing.Font("Satoshi Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMiMusica.Location = new System.Drawing.Point(23, 227);
             this.btnMiMusica.Name = "btnMiMusica";
             this.btnMiMusica.Size = new System.Drawing.Size(205, 50);
             this.btnMiMusica.TabIndex = 24;
@@ -277,9 +293,9 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(85)))), ((int)(((byte)(157)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(250, 34);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(250, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(724, 626);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(724, 660);
             this.guna2GradientPanel1.TabIndex = 3;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
@@ -315,7 +331,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(81, 103);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(70, 164);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersVisible = false;
@@ -389,7 +405,7 @@
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(187, 38);
+            this.guna2TextBox1.Location = new System.Drawing.Point(187, 99);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
@@ -401,8 +417,8 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(974, 660);
-            this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

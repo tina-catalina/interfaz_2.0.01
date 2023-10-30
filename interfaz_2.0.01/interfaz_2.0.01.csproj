@@ -150,5 +150,35 @@
   <ItemGroup>
     <None Include="Resources\Adobe_Express_20231030_1255510_1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunidadBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunidadWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mimusicaBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mimusicaWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subirmusicaBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subirmusicaWhite.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
