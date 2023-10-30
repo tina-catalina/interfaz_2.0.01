@@ -14,15 +14,18 @@ namespace interfaz_2._0._01
     {
         public formRegister()
         { 
-            //culo
-            InitializeComponent();
-            
-            btnBack.Click += new EventHandler(btnBack_Click);
+            InitializeComponent(); 
+        }
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            new formLogin().Show();
+            this.Hide();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Close();
+            new formLogin().Show();
+            this.Hide();
         }
     }
 }

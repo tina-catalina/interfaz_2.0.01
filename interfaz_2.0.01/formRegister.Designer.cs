@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formRegister));
-            this.formRegisterElipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.elipseformRegister = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.dtpNacimiento_Register = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.btnBack = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.brand_Register = new System.Windows.Forms.Label();
-            this.logo_Register = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.brandRegister = new System.Windows.Forms.Label();
+            this.logoRegister = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnRegistrar = new Guna.UI2.WinForms.Guna2Button();
             this.txtbxCheckPassword_Register = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtbxPassword_Register = new Guna.UI2.WinForms.Guna2TextBox();
@@ -42,22 +42,22 @@
             this.txbxApellido_Register = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbxCI_Register = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtbxNickname_Register = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnMinimizeLogin = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.btnExitLogin = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.contenedor_ImagenLogin = new Guna.UI2.WinForms.Guna2Panel();
-            this.imagenLogin = new Guna.UI2.WinForms.Guna2PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.logo_Register)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
-            this.contenedor_ImagenLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imagenLogin)).BeginInit();
+            this.pnlcontenedorDatosRegister = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnMinimizeRegister = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnExitRegister = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.pnlcontenedorImagenRegister = new Guna.UI2.WinForms.Guna2Panel();
+            this.imagenRegister = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.sombraformRegister = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.logoRegister)).BeginInit();
+            this.pnlcontenedorDatosRegister.SuspendLayout();
+            this.pnlcontenedorImagenRegister.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenRegister)).BeginInit();
             this.SuspendLayout();
             // 
-            // formRegisterElipse
+            // elipseformRegister
             // 
-            this.formRegisterElipse.BorderRadius = 10;
-            this.formRegisterElipse.TargetControl = this;
+            this.elipseformRegister.BorderRadius = 10;
+            this.elipseformRegister.TargetControl = this;
             // 
             // dtpNacimiento_Register
             // 
@@ -67,7 +67,7 @@
             this.dtpNacimiento_Register.FillColor = System.Drawing.Color.White;
             this.dtpNacimiento_Register.Font = new System.Drawing.Font("Satoshi", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNacimiento_Register.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNacimiento_Register.Location = new System.Drawing.Point(117, 521);
+            this.dtpNacimiento_Register.Location = new System.Drawing.Point(117, 525);
             this.dtpNacimiento_Register.MaxDate = new System.DateTime(2023, 10, 29, 0, 0, 0, 0);
             this.dtpNacimiento_Register.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.dtpNacimiento_Register.Name = "dtpNacimiento_Register";
@@ -89,30 +89,31 @@
             this.btnBack.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.btnBack.Size = new System.Drawing.Size(50, 50);
             this.btnBack.TabIndex = 26;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // brand_Register
+            // brandRegister
             // 
-            this.brand_Register.AutoSize = true;
-            this.brand_Register.Font = new System.Drawing.Font("Satoshi Black", 9F, System.Drawing.FontStyle.Bold);
-            this.brand_Register.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.brand_Register.Location = new System.Drawing.Point(97, 48);
-            this.brand_Register.Name = "brand_Register";
-            this.brand_Register.Size = new System.Drawing.Size(90, 15);
-            this.brand_Register.TabIndex = 25;
-            this.brand_Register.Text = "MUSA PLAYER";
+            this.brandRegister.AutoSize = true;
+            this.brandRegister.Font = new System.Drawing.Font("Satoshi Black", 9F, System.Drawing.FontStyle.Bold);
+            this.brandRegister.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.brandRegister.Location = new System.Drawing.Point(97, 48);
+            this.brandRegister.Name = "brandRegister";
+            this.brandRegister.Size = new System.Drawing.Size(90, 15);
+            this.brandRegister.TabIndex = 25;
+            this.brandRegister.Text = "MUSA PLAYER";
             // 
-            // logo_Register
+            // logoRegister
             // 
-            this.logo_Register.BackColor = System.Drawing.Color.Transparent;
-            this.logo_Register.Image = global::interfaz_2._0._01.Properties.Resources.logo_opcion2;
-            this.logo_Register.ImageRotate = 0F;
-            this.logo_Register.Location = new System.Drawing.Point(10, 10);
-            this.logo_Register.Name = "logo_Register";
-            this.logo_Register.Size = new System.Drawing.Size(90, 90);
-            this.logo_Register.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo_Register.TabIndex = 24;
-            this.logo_Register.TabStop = false;
-            this.logo_Register.UseTransparentBackground = true;
+            this.logoRegister.BackColor = System.Drawing.Color.Transparent;
+            this.logoRegister.Image = global::interfaz_2._0._01.Properties.Resources.logo_opcion2;
+            this.logoRegister.ImageRotate = 0F;
+            this.logoRegister.Location = new System.Drawing.Point(10, 10);
+            this.logoRegister.Name = "logoRegister";
+            this.logoRegister.Size = new System.Drawing.Size(90, 90);
+            this.logoRegister.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoRegister.TabIndex = 24;
+            this.logoRegister.TabStop = false;
+            this.logoRegister.UseTransparentBackground = true;
             // 
             // btnRegistrar
             // 
@@ -127,12 +128,13 @@
             this.btnRegistrar.Font = new System.Drawing.Font("Satoshi Light", 8.999999F);
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
             this.btnRegistrar.HoverState.Font = new System.Drawing.Font("Satoshi Light", 9.75F);
-            this.btnRegistrar.Location = new System.Drawing.Point(131, 588);
+            this.btnRegistrar.Location = new System.Drawing.Point(131, 587);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(132, 45);
             this.btnRegistrar.TabIndex = 23;
             this.btnRegistrar.Text = "Crear cuenta";
             this.btnRegistrar.UseTransparentBackground = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // txtbxCheckPassword_Register
             // 
@@ -274,118 +276,111 @@
             this.txtbxNickname_Register.Size = new System.Drawing.Size(320, 36);
             this.txtbxNickname_Register.TabIndex = 22;
             // 
-            // guna2Panel1
+            // pnlcontenedorDatosRegister
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.guna2Panel1.Controls.Add(this.dtpNacimiento_Register);
-            this.guna2Panel1.Controls.Add(this.btnBack);
-            this.guna2Panel1.Controls.Add(this.btnRegistrar);
-            this.guna2Panel1.Controls.Add(this.brand_Register);
-            this.guna2Panel1.Controls.Add(this.txtbxCheckPassword_Register);
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Controls.Add(this.txtbxPassword_Register);
-            this.guna2Panel1.Controls.Add(this.logo_Register);
-            this.guna2Panel1.Controls.Add(this.txbxNombre_Register);
-            this.guna2Panel1.Controls.Add(this.txbxCI_Register);
-            this.guna2Panel1.Controls.Add(this.txbxApellido_Register);
-            this.guna2Panel1.Controls.Add(this.txtbxNickname_Register);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(394, 660);
-            this.guna2Panel1.TabIndex = 28;
+            this.pnlcontenedorDatosRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.pnlcontenedorDatosRegister.Controls.Add(this.dtpNacimiento_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.btnBack);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.btnRegistrar);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.brandRegister);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txtbxCheckPassword_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txtbxPassword_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.logoRegister);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txbxNombre_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txbxCI_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txbxApellido_Register);
+            this.pnlcontenedorDatosRegister.Controls.Add(this.txtbxNickname_Register);
+            this.pnlcontenedorDatosRegister.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlcontenedorDatosRegister.Location = new System.Drawing.Point(0, 0);
+            this.pnlcontenedorDatosRegister.Name = "pnlcontenedorDatosRegister";
+            this.pnlcontenedorDatosRegister.Size = new System.Drawing.Size(394, 660);
+            this.pnlcontenedorDatosRegister.TabIndex = 28;
             // 
-            // label1
+            // btnMinimizeRegister
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Satoshi Light", 8.999999F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(156, 540);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 15);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "¿Aun no tienes";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMinimizeRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizeRegister.Animated = true;
+            this.btnMinimizeRegister.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizeRegister.BorderRadius = 3;
+            this.btnMinimizeRegister.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.btnMinimizeRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.btnMinimizeRegister.IconColor = System.Drawing.Color.White;
+            this.btnMinimizeRegister.Location = new System.Drawing.Point(496, 12);
+            this.btnMinimizeRegister.Name = "btnMinimizeRegister";
+            this.btnMinimizeRegister.Size = new System.Drawing.Size(25, 20);
+            this.btnMinimizeRegister.TabIndex = 1;
+            this.btnMinimizeRegister.UseTransparentBackground = true;
             // 
-            // btnMinimizeLogin
+            // btnExitRegister
             // 
-            this.btnMinimizeLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizeLogin.Animated = true;
-            this.btnMinimizeLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizeLogin.BorderRadius = 6;
-            this.btnMinimizeLogin.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.btnMinimizeLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.btnMinimizeLogin.IconColor = System.Drawing.Color.White;
-            this.btnMinimizeLogin.Location = new System.Drawing.Point(496, 12);
-            this.btnMinimizeLogin.Name = "btnMinimizeLogin";
-            this.btnMinimizeLogin.Size = new System.Drawing.Size(35, 30);
-            this.btnMinimizeLogin.TabIndex = 1;
-            this.btnMinimizeLogin.UseTransparentBackground = true;
+            this.btnExitRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExitRegister.Animated = true;
+            this.btnExitRegister.BackColor = System.Drawing.Color.Transparent;
+            this.btnExitRegister.BorderRadius = 3;
+            this.btnExitRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
+            this.btnExitRegister.IconColor = System.Drawing.Color.White;
+            this.btnExitRegister.Location = new System.Drawing.Point(537, 12);
+            this.btnExitRegister.Name = "btnExitRegister";
+            this.btnExitRegister.Size = new System.Drawing.Size(25, 20);
+            this.btnExitRegister.TabIndex = 1;
+            this.btnExitRegister.UseTransparentBackground = true;
             // 
-            // btnExitLogin
+            // pnlcontenedorImagenRegister
             // 
-            this.btnExitLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExitLogin.Animated = true;
-            this.btnExitLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnExitLogin.BorderRadius = 6;
-            this.btnExitLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(73)))));
-            this.btnExitLogin.IconColor = System.Drawing.Color.White;
-            this.btnExitLogin.Location = new System.Drawing.Point(537, 12);
-            this.btnExitLogin.Name = "btnExitLogin";
-            this.btnExitLogin.Size = new System.Drawing.Size(35, 30);
-            this.btnExitLogin.TabIndex = 1;
-            this.btnExitLogin.UseTransparentBackground = true;
+            this.pnlcontenedorImagenRegister.Controls.Add(this.btnMinimizeRegister);
+            this.pnlcontenedorImagenRegister.Controls.Add(this.btnExitRegister);
+            this.pnlcontenedorImagenRegister.Controls.Add(this.imagenRegister);
+            this.pnlcontenedorImagenRegister.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlcontenedorImagenRegister.Location = new System.Drawing.Point(390, 0);
+            this.pnlcontenedorImagenRegister.Name = "pnlcontenedorImagenRegister";
+            this.pnlcontenedorImagenRegister.Size = new System.Drawing.Size(584, 660);
+            this.pnlcontenedorImagenRegister.TabIndex = 29;
             // 
-            // contenedor_ImagenLogin
+            // imagenRegister
             // 
-            this.contenedor_ImagenLogin.Controls.Add(this.btnMinimizeLogin);
-            this.contenedor_ImagenLogin.Controls.Add(this.btnExitLogin);
-            this.contenedor_ImagenLogin.Controls.Add(this.imagenLogin);
-            this.contenedor_ImagenLogin.Dock = System.Windows.Forms.DockStyle.Right;
-            this.contenedor_ImagenLogin.Location = new System.Drawing.Point(390, 0);
-            this.contenedor_ImagenLogin.Name = "contenedor_ImagenLogin";
-            this.contenedor_ImagenLogin.Size = new System.Drawing.Size(584, 660);
-            this.contenedor_ImagenLogin.TabIndex = 29;
+            this.imagenRegister.BackColor = System.Drawing.Color.Transparent;
+            this.imagenRegister.Image = global::interfaz_2._0._01.Properties.Resources.background_image1;
+            this.imagenRegister.ImageRotate = 0F;
+            this.imagenRegister.Location = new System.Drawing.Point(-53, 0);
+            this.imagenRegister.Name = "imagenRegister";
+            this.imagenRegister.Size = new System.Drawing.Size(674, 674);
+            this.imagenRegister.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.imagenRegister.TabIndex = 0;
+            this.imagenRegister.TabStop = false;
+            this.imagenRegister.UseTransparentBackground = true;
             // 
-            // imagenLogin
+            // sombraformRegister
             // 
-            this.imagenLogin.BackColor = System.Drawing.Color.Transparent;
-            this.imagenLogin.Image = global::interfaz_2._0._01.Properties.Resources.background_image1;
-            this.imagenLogin.ImageRotate = 0F;
-            this.imagenLogin.Location = new System.Drawing.Point(-53, 0);
-            this.imagenLogin.Name = "imagenLogin";
-            this.imagenLogin.Size = new System.Drawing.Size(674, 674);
-            this.imagenLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.imagenLogin.TabIndex = 0;
-            this.imagenLogin.TabStop = false;
-            this.imagenLogin.UseTransparentBackground = true;
+            this.sombraformRegister.BorderRadius = 10;
+            this.sombraformRegister.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(251)))), ((int)(((byte)(254)))));
+            this.sombraformRegister.TargetForm = this;
             // 
             // formRegister
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(974, 660);
-            this.Controls.Add(this.contenedor_ImagenLogin);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.pnlcontenedorImagenRegister);
+            this.Controls.Add(this.pnlcontenedorDatosRegister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            ((System.ComponentModel.ISupportInitialize)(this.logo_Register)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            this.contenedor_ImagenLogin.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imagenLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoRegister)).EndInit();
+            this.pnlcontenedorDatosRegister.ResumeLayout(false);
+            this.pnlcontenedorDatosRegister.PerformLayout();
+            this.pnlcontenedorImagenRegister.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imagenRegister)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Elipse formRegisterElipse;
+        private Guna.UI2.WinForms.Guna2Elipse elipseformRegister;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpNacimiento_Register;
         private Guna.UI2.WinForms.Guna2ImageButton btnBack;
-        private System.Windows.Forms.Label brand_Register;
-        private Guna.UI2.WinForms.Guna2PictureBox logo_Register;
+        private System.Windows.Forms.Label brandRegister;
+        private Guna.UI2.WinForms.Guna2PictureBox logoRegister;
         private Guna.UI2.WinForms.Guna2Button btnRegistrar;
         private Guna.UI2.WinForms.Guna2TextBox txtbxCheckPassword_Register;
         private Guna.UI2.WinForms.Guna2TextBox txtbxPassword_Register;
@@ -393,11 +388,11 @@
         private Guna.UI2.WinForms.Guna2TextBox txbxApellido_Register;
         private Guna.UI2.WinForms.Guna2TextBox txbxCI_Register;
         private Guna.UI2.WinForms.Guna2TextBox txtbxNickname_Register;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2Panel contenedor_ImagenLogin;
-        private Guna.UI2.WinForms.Guna2ControlBox btnMinimizeLogin;
-        private Guna.UI2.WinForms.Guna2ControlBox btnExitLogin;
-        private Guna.UI2.WinForms.Guna2PictureBox imagenLogin;
+        private Guna.UI2.WinForms.Guna2Panel pnlcontenedorDatosRegister;
+        private Guna.UI2.WinForms.Guna2Panel pnlcontenedorImagenRegister;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMinimizeRegister;
+        private Guna.UI2.WinForms.Guna2ControlBox btnExitRegister;
+        private Guna.UI2.WinForms.Guna2PictureBox imagenRegister;
+        private Guna.UI2.WinForms.Guna2ShadowForm sombraformRegister;
     }
 }

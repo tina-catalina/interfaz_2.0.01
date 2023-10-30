@@ -20,10 +20,14 @@ namespace interfaz_2._0._01
 
         private void clickRegistrar_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            formRegister form = new formRegister();
-            form.ShowDialog();
-            this.Visible = true;
+            new formRegister().Show();
+            this.Hide();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            new formMain().Show();
+            this.Hide();
         }
     }
 }

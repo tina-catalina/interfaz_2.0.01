@@ -63,6 +63,116 @@ namespace interfaz_2._0._01.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231029_1416030_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231029_1416030_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1253220_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1253220_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1253370_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1253370_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1254090_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1254090_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1254150_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1254150_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1254410_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1254410_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1255000_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1255000_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1255180_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1255180_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1255240_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1255240_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1255410_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1255410_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Adobe_Express_20231030_1255510_1 {
+            get {
+                object obj = ResourceManager.GetObject("Adobe_Express_20231030_1255510_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background_image1 {
             get {
                 object obj = ResourceManager.GetObject("background_image1", resourceCulture);
@@ -86,6 +196,16 @@ namespace interfaz_2._0._01.Properties {
         internal static System.Drawing.Bitmap btnBack {
             get {
                 object obj = ResourceManager.GetObject("btnBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnBack1 {
+            get {
+                object obj = ResourceManager.GetObject("btnBack1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
