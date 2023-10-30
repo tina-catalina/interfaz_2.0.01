@@ -118,77 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="settingsBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settingsBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background_image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoutBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoutBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="settingsWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settingsWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="subirmusicaWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subirmusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoutWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoutWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo_opcion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_opcion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mimusicaWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mimusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="comunidadBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comunidadBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mimusicaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mimusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background_image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background_image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnBack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="comunidadWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comunidadWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="subirmusicaWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subirmusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="subirmusicaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subirmusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background_image11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background_image21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background_image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnBack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="comunidadBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comunidadBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingsWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settingsWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="comunidadWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comunidadWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_opcion21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_opcion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoutBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoutBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="subirmusicaBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subirmusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoutWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoutWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background_image21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mimusicaBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mimusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background_image11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subirmusicaWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subirmusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mimusicaWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mimusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,13 +160,61 @@
   <data name="settingsBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settingsBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background_image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mimusicaWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mimusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_opcion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_opcion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoutBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comunidadBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comunidadBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comunidadWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comunidadWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoutWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mimusicaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mimusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settingsWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settingsWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="subirmusicaBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="mimusicaBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mimusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingsBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settingsBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoutBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subirmusicaBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\subirmusicaBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="subirmusicaWhite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subirmusicaWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fastfoward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fastfoward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rewindButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rewindButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stopIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

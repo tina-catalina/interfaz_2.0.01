@@ -173,6 +173,16 @@ namespace interfaz_2._0._01.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fastfoward {
+            get {
+                object obj = ResourceManager.GetObject("fastfoward", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_opcion2 {
             get {
                 object obj = ResourceManager.GetObject("logo_opcion2", resourceCulture);
@@ -273,6 +283,26 @@ namespace interfaz_2._0._01.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap playIcon {
+            get {
+                object obj = ResourceManager.GetObject("playIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rewindButton {
+            get {
+                object obj = ResourceManager.GetObject("rewindButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap settingsBlue {
             get {
                 object obj = ResourceManager.GetObject("settingsBlue", resourceCulture);
@@ -306,6 +336,16 @@ namespace interfaz_2._0._01.Properties {
         internal static System.Drawing.Bitmap settingsWhite1 {
             get {
                 object obj = ResourceManager.GetObject("settingsWhite1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stopIcon {
+            get {
+                object obj = ResourceManager.GetObject("stopIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

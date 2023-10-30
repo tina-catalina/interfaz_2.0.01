@@ -154,39 +154,6 @@
     <None Include="Resources\btnBack.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1253370_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231029_1416030_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1253220_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1254090_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1254150_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1254410_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1255000_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1255180_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1255240_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1255410_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Adobe_Express_20231030_1255510_1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\comunidadBlue.png" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +182,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\subirmusicaWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastfoward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rewindButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
