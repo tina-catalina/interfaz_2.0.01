@@ -18,5 +18,57 @@ namespace interfaz_2._0._01
         {
             InitializeComponent();
         }
+
+        private void OpenSelectedForm(Form ChildForm)
+        {
+
+            if (this.mainPanel.Controls.Count > 0) this.mainPanel.Controls.RemoveAt(0);
+
+            Form cf = ChildForm ; // Type Casting in C#
+            cf.TopLevel = false; // Esto evita que el form se ponga enfrente de todas las ventanas
+            cf.Dock = DockStyle.Fill; // esto acopla los bordes del form llenando el control o superficie donde este Ej: un panel/ventana etc
+            this.mainPanel.Controls.Add(cf); // Esto agrega el form al panel principal del form principal
+            this.mainPanel.Tag = cf; // crea un enlace a los posibles datos/atributos en el panel
+            cf.Show(); // muestra el form
+        
+        
+        }
+
+        private void btnMiMusica_Click(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formMyMusic()); // Donde queda guardada la instancia pasada por parametro?
+        }
+
+        private void btnSubirMusica_Click(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formUploadMusic());
+
+        }
+
+        private void btnComunidad_Click(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formCommunity());
+
+        }
+
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            OpenSelectedForm(new formPreferences());
+
+        }
+
+        private void btnExitRegister_Click(object sender, EventArgs e)
+        {
+            // ARREGLAR BOTONES SALIRSE Y MINIMIZAR DEL MAIN
+            // Hacer message box para preguntar si quiere salir
+            Application.Exit();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            // logica para cerrar la sesion, falta la meesagebox para comprobar si quiere irse o no.
+            new formLogin().Show();
+            this.Close();
+        }
     }
 }

@@ -95,6 +95,7 @@
             this.btnExitLogin.Size = new System.Drawing.Size(25, 20);
             this.btnExitLogin.TabIndex = 1;
             this.btnExitLogin.UseTransparentBackground = true;
+            this.btnExitLogin.Click += new System.EventHandler(this.btnExitLogin_Click);
             // 
             // imagenLogin
             // 

@@ -324,6 +324,7 @@
             this.btnExitRegister.Size = new System.Drawing.Size(25, 20);
             this.btnExitRegister.TabIndex = 1;
             this.btnExitRegister.UseTransparentBackground = true;
+            this.btnExitRegister.Click += new System.EventHandler(this.btnExitRegister_Click);
             // 
             // pnlcontenedorImagenRegister
             // 

@@ -27,5 +27,10 @@ namespace interfaz_2._0._01
             new formLogin().Show();
             this.Hide();
         }
+
+        private void btnExitRegister_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
